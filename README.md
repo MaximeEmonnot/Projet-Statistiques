@@ -27,7 +27,7 @@ Quelques conventions ont été définies au préalable.
 Le nommage des variables suit le schéma suivant, en partant du moins précis au plus précis : 
 1. Si la variable est une variable classique, elle est définie en `camelCase`.
 2. Si la variable est un jeu de données, elle est définie en `PascalCase`
-3. Si la variable est un jeu de données tratié, un suffixe explicitant le traitement est ajouté (*Exemple : jeuDeDonnee_CentreReduit*)
+3. Si la variable est un jeu de données traité, un suffixe explicitant le traitement est ajouté (*Exemple : jeuDeDonnee_CentreReduit*)
 
 ### Langue des fichiers
 
