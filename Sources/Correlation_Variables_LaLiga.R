@@ -9,17 +9,17 @@ library(corrplot)
 library(DataExplorer)
 
 # Matrice des corrélations
-corrplot(cor(DataFootball_La_Liga))
+#corrplot(cor(DataFootball_La_Liga))
 
 # Création de la matrice de corrélation avec corrplot
 corrplot(cor(DataFootball_La_Liga), method = "color", tl.cex = 0.7)
 
 plot_correlation(DataFootball_La_Liga)
-corrplot.mixed(cor(DataFootball_La_Liga),
-               upper = "circle",
-               lower = "number",
-               addgrid.col = "black",
-               tl.col = "black")
+#corrplot.mixed(cor(DataFootball_La_Liga),
+#               upper = "circle",
+#               lower = "number",
+#               addgrid.col = "black",
+#               tl.col = "black")
 corrplot(
   cor(DataFootball_La_Liga),
   method = "circle",
