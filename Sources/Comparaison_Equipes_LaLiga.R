@@ -6,8 +6,7 @@ DataFootball_La_Liga <- DataFootball[DataFootball$Competition == "es La Liga", -
 
 # Barplots
 barplot(DataFootball_La_Liga$Joueurs.utilisees, 
-        names = row.names(DataFootball_La_Liga), horiz=T, las=1, col = "#69b3a2", main = "Joueurs utilisees")
-
+        names = row.names(DataFootball_La_Liga), horiz=T, las=1, col = "#69b3a2", main = "Joueurs utilisees", cex.names = 0.5)
 
 
 # Barplots
