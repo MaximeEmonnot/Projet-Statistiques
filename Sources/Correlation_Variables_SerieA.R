@@ -9,15 +9,15 @@ library(corrplot)
 library(DataExplorer)
 
 # Matrice des corrélations
-corrplot(cor(DataFootball_Ligue1))
-plot_correlation(DataFootball_Ligue1)
-corrplot.mixed(cor(DataFootball_Ligue1),
+corrplot(cor(DataFootball_SerieA))
+plot_correlation(DataFootball_SerieA)
+corrplot.mixed(cor(DataFootball_SerieA),
                upper = "circle",
                lower = "number",
                addgrid.col = "black",
                tl.col = "black")
 corrplot(
-  cor(DataFootball_Ligue1),
+  cor(DataFootball_SerieA),
   method = "circle",
   type = "upper",
   tl.col = "black",
