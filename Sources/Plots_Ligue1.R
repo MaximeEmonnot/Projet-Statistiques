@@ -38,7 +38,7 @@ for(corr in minCorr)
   {
     for(j in 1:ncol(DataFootball_Ligue1))
     {
-      if(j > i)
+      if(j != i)
       {
         filePath = gsub(" ", "", paste(gsub("\\.", "_", colnames(DataFootball_Ligue1)[i]), 
                                        gsub("\\.", "_", colnames(DataFootball_Ligue1)[j]),
