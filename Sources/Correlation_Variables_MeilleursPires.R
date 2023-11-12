@@ -24,3 +24,24 @@ DataFootball_MeilleursPires <- rbind(DataFootball_MeilleursPires, DataFootball_L
 DataFootball_MeilleursPires <- rbind(DataFootball_MeilleursPires, DataFootball_LaLiga_Pires)
 DataFootball_MeilleursPires <- rbind(DataFootball_MeilleursPires, DataFootball_SerieA_Meilleurs)
 DataFootball_MeilleursPires <- rbind(DataFootball_MeilleursPires, DataFootball_SerieA_Pires)
+
+# Chargement des librairies
+library(corrplot)
+library(DataExplorer)
+
+# Matrice des corrélations
+corrplot(cor(DataFootball_MeilleursPires))
+plot_correlation(DataFootball_MeilleursPires)
+corrplot.mixed(cor(DataFootball_MeilleursPires),
+               upper = "circle",
+               lower = "number",
+               addgrid.col = "black",
+               tl.col = "black")
+corrplot(
+  cor(DataFootball_MeilleursPires),
+  method = "circle",
+  type = "upper",
+  tl.col = "black",
+  tl.cex = 0.75,
+  col = colorRampPalette(c("red", "blue"))(200)
+)
