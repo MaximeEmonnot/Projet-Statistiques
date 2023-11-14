@@ -7,6 +7,8 @@ DataFootball_Ligue1 <- DataFootball[DataFootball$Competition == "fr Ligue 1", -w
 # Description des variables 
 summary(DataFootball_Ligue1)
 
+write.csv(DataFootball_Ligue1, "./CSV/MatriceDonnées.csv")
+
 ## Boîtes à moustache
 for(i in 1:ncol(DataFootball_Ligue1))
 {
