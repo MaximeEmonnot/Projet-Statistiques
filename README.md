@@ -1,6 +1,6 @@
 # Projet-Statistiques
 Projet dans le cadre du Master 1 BDMA à Blois.  
-Réalisé par Manon LACOMBE et Maxime EMONNOT.
+Réalisé par Manon LACOMBE, Caroline DORLEANS et Maxime EMONNOT.
 
 ## Table des matières
 
